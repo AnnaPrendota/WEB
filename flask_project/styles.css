@@ -1,4 +1,3 @@
-/* Загальні стилі для обох сторінок */
 body {
     font-family: Arial, sans-serif;
     color: white;
@@ -8,35 +7,31 @@ body {
     height: 100%;
 }
 
-/* Фон для першої сторінки - голубий */
 .page-one {
-    background-color: #add8e6; /* Голубий колір */
+    background-color: #add8e6; 
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Фон для другої сторінки - ніжно-жовтий */
 .page-two {
-    background-color: #ffffe0; /* Ніжно-жовтий колір */
+    background-color: #ffffe0; 
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Стилі для вмісту сторінки */
 .content {
     position: relative;
     z-index: 1;
     padding: 20px;
 }
 
-/* Текст на другій сторінці червоного кольору */
 .page-two h1,
 .page-two p {
-    color: red; /* Червоний колір для тексту */
+    color: red; 
 }
 
 h1 {
